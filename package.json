@@ -1,0 +1,15 @@
+{
+  "name": "@ldesign/markdown",
+  "version": "0.1.0",
+  "description": "Markdown 编辑器/渲染器 - 实时预览、语法高亮、导出",
+  "keywords": ["ldesign", "markdown", "editor", "preview"],
+  "author": "LDesign Team",
+  "license": "MIT",
+  "type": "module",
+  "main": "./lib/index.cjs",
+  "module": "./es/index.js",
+  "scripts": {"build": "ldesign-builder build -f esm,cjs,dts"},
+  "dependencies": {"@ldesign/shared": "workspace:*"},
+  "devDependencies": {"@ldesign/builder": "workspace:*", "typescript": "^5.7.3"}
+}
+
